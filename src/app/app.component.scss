@@ -1,0 +1,82 @@
+mat-toolbar{
+ color: whitesmoke;
+ background: rgb(221, 27, 27);
+ .title{
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+ }
+}
+
+mat-sidenav{
+  color:rgb(0, 5, 4);
+  background-color: rgb(28, 144, 215);
+  width: 250px;
+  margin: 16px;
+  border-right: none;
+  border-radius: 15px ;
+  padding: 16px;
+  text-align: center;
+
+}
+
+mat-sidenav-container{
+  height: calc(100vh - 65px);
+  background-color: rgb(244, 244, 244);
+}
+mat-sidenav-content{
+
+  background: rgb(244, 244, 244);
+  color: black;
+   text-align: center;
+   overflow: auto;
+
+}
+.content{
+  margin: 16px;
+  margin-left:32px;
+  height: calc(100vh - 100px);
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 20px;
+  overflow :auto;
+}
+
+.menu-button{
+  margin-top: 0.5rem;
+  height: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size:1rem;
+
+}
+
+.avatar{
+  border-radius: 50%;
+  width:  5rem;
+  height: 5rem;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.name, .designation{
+  margin: 1rem;
+  color:antiquewhite;
+  font-size: 0.81rem;
+  // border: 0.5px solid rgb(240, 239, 237);
+}
+
+.active-list-item {
+  color: #190202 !important; /* Note: You could also use a custom theme */
+}
+
+
+.channelname{
+  color: #088be3;
+}
+
+.imaline{
+  margin: 0 auto;
+  width: 250px;
+}
